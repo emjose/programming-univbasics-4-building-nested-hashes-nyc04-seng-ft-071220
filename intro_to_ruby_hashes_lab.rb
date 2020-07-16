@@ -1,10 +1,10 @@
 def base_hash
-  base_hash = {:railroads => {}}# Remember implicit return! We're returning this new Hash _without_ the
+  monopoly = {:railroads => {}}# Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
 end
 
 def monopoly_with_second_tier
-  base_hash = {:railroads => {
+  monopoly = {:railroads => {
     :pieces => 4,
     :rent_in_dollars => {},
     :names => {}
